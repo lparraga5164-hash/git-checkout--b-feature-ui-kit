@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>UI Kit - Sistema de Gestión de Incidentes</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>UI Kit</h1>
+
+<p>Sistema de Gestión de Incidentes</p>
+
+</header>
+
+
+<main class="contenedor">
+
+<section>
+
+<h2>Botones</h2>
+
+<button class="btn btn-primario">
+Registrar Incidente
+</button>
+
+<button class="btn btn-secundario">
+Editar
+</button>
+
+<button class="btn btn-peligro">
+Eliminar
+</button>
+
+</section>
+
+
+<section>
+
+<h2>Formulario</h2>
+
+<form class="formulario">
+
+<label>Título del incidente</label>
+
+<input type="text" placeholder="Ingrese el título">
+
+
+<label>Descripción</label>
+
+<textarea placeholder="Describa el incidente"></textarea>
+
+<label>Prioridad</label>
+
+<select>
+
+<option>Alta</option>
+
+<option>Media</option>
+
+<option>Baja</option>
+
+</select>
+
+<button class="btn btn-primario">
+Guardar
+</button>
+
+</form>
+
+</section>
+
+
+<section>
+
+<h2>Tarjetas</h2>
+
+<div class="card">
+
+<h3>Incidente #101</h3>
+
+<p>
+Servidor sin conexión desde las 09:20 AM.
+</p>
+
+<span class="estado alta">
+Prioridad Alta
+</span>
+
+</div>
+
+<div class="card">
+
+<h3>Incidente #102</h3>
+
+<p>
+Actualización pendiente del sistema.
+</p>
+
+<span class="estado media">
+Prioridad Media
+</span>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Alertas</h2>
+
+<div class="alerta exito">
+
+El incidente fue registrado correctamente.
+
+</div>
+
+<div class="alerta advertencia">
+
+El incidente requiere revisión.
+
+</div>
+
+<div class="alerta error">
+
+No fue posible guardar la información.
+
+</div>
+
+</section>
+
+</main>
+
+</body>
+
+</html>
